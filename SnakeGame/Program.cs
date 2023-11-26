@@ -29,6 +29,7 @@ class Program
         List<int> telje = new List<int>();
 
         int score = 0;
+        Pixel hoofd = new Pixel();
 
         hoofd.xPos = screenwidth / 2;
 

@@ -26,16 +26,6 @@ class Program
 
         Random randomnummer = new Random();
 
-        pixel hoofd = new pixel();
-
-        hoofd.xpos = screenwidth / 2;
-
-        hoofd.ypos = screenheight / 2;
-
-        hoofd.schermkleur = ConsoleColor.Red;
-
-        string movement = "RIGHT";
-
         List<int> telje = new List<int>();
 
         int score = 0;
@@ -48,7 +38,7 @@ class Program
 
         hoofd.schermKleur = ConsoleColor.Red;
 
-
+        string movement = "RIGHT";
 
         List<int> teljePositie = new List<int>();
 
@@ -224,7 +214,7 @@ class Program
 
             //Hindernis treffen
 
-            if (hoofd.xPos == obstacleXpos /* ?? */ == obstacleYpos)
+            if (hoofd.xPos == obstacleXpos == obstacleYpos)
 
             {
 

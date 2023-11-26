@@ -40,8 +40,6 @@ class Program
 
         int score = 0;
 
-        Pixel hoofd = new Pixel();
-
         hoofd.xPos = screenwidth / 2;
 
         hoofd.yPos = screenheight / 2;
@@ -134,7 +132,7 @@ class Program
 
             }
 
-            Console.ForegroundColor =  ConsoleColor.Blue;
+            Console.ForegroundColor =  ConsoleColor.White;
 
             Console.WriteLine("Score: " + score);
 
@@ -163,7 +161,7 @@ class Program
             Console.Write("■");
 
             Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
-
+            
             Console.Write("■");
 
             Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
@@ -190,7 +188,7 @@ class Program
 
                     movement = "DOWN";
 
-                // ???
+                    break;
 
                 case ConsoleKey.LeftArrow:
 

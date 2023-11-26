@@ -134,7 +134,7 @@ class Program
 
             }
 
-            Console.ForegroundColor =  /* ?? */;
+            Console.ForegroundColor =  ConsoleColor.Blue;
 
             Console.WriteLine("Score: " + score);
 
